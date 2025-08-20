@@ -1,0 +1,19 @@
+{
+  "name": "alcoupon-scraper",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Scrape coupon codes from uae.alcoupon.com merchant pages and export extension-ready coupons.json",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "scrape": "node index.js --slugs shein,adidas,storeus"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cheerio": "^1.0.0-rc.12",
+    "yargs": "^17.7.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
