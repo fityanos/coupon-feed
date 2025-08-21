@@ -13,14 +13,12 @@ and export them as an **extension-ready `coupons.json`** grouped by merchant hos
 ## Quick Start
 
 ```bash
-# 1) Create a folder and unzip the package contents here
-cd alcoupon-scraper
-
-# 2) Install deps
+# 1) Install deps
+cd scraper
 npm install
 
-# 3) Run (default slugs: shein, adidas, storeus)
-node index.js --slugs shein,adidas,storeus --out coupons.json
+# 2) Run (default slugs: shein, adidas, storeus)
+npm run scrape -- --out ../coupons.json
 
 # Optional flags
 # --country uae --lang en --delay 1200
@@ -40,6 +38,22 @@ The output `coupons.json` looks like this:
 ```
 
 > Drop this file straight into your extension, replacing the existing `coupons.json`.
+
+## GitHub Pages (static site + JSON hosting)
+
+This repo includes a small static site at the repo root (`index.html`) that loads and displays `coupons.json`. When enabled, GitHub Pages will serve both the page and the raw JSON for your extension.
+
+Steps:
+
+1. Ensure `coupons.json` exists at the repo root (CI updates it daily).
+2. Pages settings: Repository → Settings → Pages
+   - Build and deployment: Source = Deploy from a branch
+   - Branch = `main` / folder = `/ (root)`
+3. Visit your Pages URL (e.g., `https://<user>.github.io/<repo>/`).
+
+Notes:
+- A `.nojekyll` file is included so all assets are served as-is.
+- The page fetches `coupons.json` from the same origin. If you move the JSON elsewhere, update `assets/app.js` fetch path.
 
 ## How it Works
 
