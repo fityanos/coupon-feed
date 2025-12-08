@@ -16,17 +16,12 @@
       "successRate": 0.2
     },
     {
-      "code": "SHEN15",
+      "code": "ALCP",
       "description": "100% Verified SHEIN Coupons & Discount Codes UAE - 2025",
       "successRate": 0.2
     },
     {
       "code": "400",
-      "description": "100% Verified SHEIN Coupons & Discount Codes UAE - 2025",
-      "successRate": 0.2
-    },
-    {
-      "code": "ALCP",
       "description": "100% Verified SHEIN Coupons & Discount Codes UAE - 2025",
       "successRate": 0.2
     },
@@ -37,6 +32,11 @@
     },
     {
       "code": "509",
+      "description": "100% Verified SHEIN Coupons & Discount Codes UAE - 2025",
+      "successRate": 0.2
+    },
+    {
+      "code": "SITEWIDE",
       "description": "100% Verified SHEIN Coupons & Discount Codes UAE - 2025",
       "successRate": 0.2
     }
@@ -132,7 +132,7 @@
       "successRate": 0.8
     },
     {
-      "code": "ALC56",
+      "code": "ALC44",
       "description": "Noon Discount Codes & Coupons 2025 | Up to 80% in UAE",
       "successRate": 0.8
     },
@@ -152,7 +152,7 @@
       "successRate": 0.8
     },
     {
-      "code": "ALC44",
+      "code": "ALC59",
       "description": "Noon Discount Codes & Coupons 2025 | Up to 80% in UAE",
       "successRate": 0.8
     },
@@ -170,42 +170,42 @@
   "trendyol.com": [
     {
       "code": "UAE",
-      "description": "Trendyol discount code 2025 Latest codes & coupons up to 90%",
+      "description": "Trendyol Discount Code 2025 Latest Codes & Coupons Up to 90%",
       "successRate": 0.9
     },
     {
       "code": "RAGHDX",
-      "description": "Trendyol discount code 2025 Latest codes & coupons up to 90%",
+      "description": "Trendyol Discount Code 2025 Latest Codes & Coupons Up to 90%",
       "successRate": 0.9
     },
     {
       "code": "400",
-      "description": "Trendyol discount code 2025 Latest codes & coupons up to 90%",
+      "description": "Trendyol Discount Code 2025 Latest Codes & Coupons Up to 90%",
       "successRate": 0.9
     },
     {
       "code": "100",
-      "description": "Trendyol discount code 2025 Latest codes & coupons up to 90%",
+      "description": "Trendyol Discount Code 2025 Latest Codes & Coupons Up to 90%",
       "successRate": 0.9
     },
     {
       "code": "126",
-      "description": "Trendyol discount code 2025 Latest codes & coupons up to 90%",
+      "description": "Trendyol Discount Code 2025 Latest Codes & Coupons Up to 90%",
       "successRate": 0.9
     },
     {
       "code": "186",
-      "description": "Trendyol discount code 2025 Latest codes & coupons up to 90%",
+      "description": "Trendyol Discount Code 2025 Latest Codes & Coupons Up to 90%",
+      "successRate": 0.9
+    },
+    {
+      "code": "MEGA",
+      "description": "Trendyol Discount Code 2025 Latest Codes & Coupons Up to 90%",
       "successRate": 0.9
     },
     {
       "code": "112",
-      "description": "Trendyol discount code 2025 Latest codes & coupons up to 90%",
-      "successRate": 0.9
-    },
-    {
-      "code": "EXCLUSIVELY",
-      "description": "Trendyol discount code 2025 Latest codes & coupons up to 90%",
+      "description": "Trendyol Discount Code 2025 Latest Codes & Coupons Up to 90%",
       "successRate": 0.9
     }
   ],
